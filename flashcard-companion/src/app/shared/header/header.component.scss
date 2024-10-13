@@ -2,26 +2,45 @@
 
   img {
     transform: scale(0.8);
-    margin: 15px;
   }
 
-  .mat-toolbar {
+  mat-toolbar {
     font-family: Poppins;
     color: rgb(249, 249, 249);
     background-color: rgb(7, 18, 38);
     padding: 0 256px;
+
+  }
+
+  h1 {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 12px;
+    color: rgb(174, 174, 174);
+    line-height: 1;
+  }
+
+  .nav  {
+    display: table-cell;
+  }
+
+  .settings  {
+    display: table-cell;
   }
 
   .spacer {
       flex: 1 1 auto;
   }
 
-  button {
-    font-size: 12px;
-    margin: 0 5px;
+  .user-text-info {
+    margin: 0 5px 0 5px;
   }
 
-  button:hover {
-    font-weight: bold;
+  button {
+    font-size: 12px;
+    margin: 0 5px 0 5px;
   }
 }

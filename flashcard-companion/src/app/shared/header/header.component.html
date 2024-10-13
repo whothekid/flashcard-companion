@@ -1,10 +1,31 @@
 <header class="app-header">
-    <mat-toolbar class="mat-toolbar">
+    <mat-toolbar>
         <img src="assets/images/logo.png" alt="Path to Air application logo."/>
-        <button mat-button>Início</button>
-        <button mat-button>Progresso</button>
-        <button mat-button>Cursos</button>
-        <button mat-button>Simulados</button>
+        <section class="nav">
+            <button mat-button>Início</button>
+            <button mat-button>Progresso</button>
+            <button mat-button>Cursos</button>
+            <button mat-button>Simulados</button>
+        </section>
         <span class="spacer"></span>
+        <section class="settings">
+            <button mat-icon-button aria-label="Ligh mode button.">
+                <mat-icon>light_mode</mat-icon>
+            </button>
+            <button mat-icon-button aria-label="Notifications button.">
+                <mat-icon matBadge="8" matBadgeColor="warn">notifications</mat-icon>
+            </button>
+            <button mat-icon-button aria-label="search button.">
+                <mat-icon>search</mat-icon>
+            </button>
+        </section>
+        <img src="assets/images/profile-pic.png" alt="User profile image." width="36" height="36">
+        <section class="user-text-info">
+                <h1 class="user-name">Jose Alberto</h1>
+                <h2 class="user-email">zezin0609@gmail.com</h2>
+        </section>
+        <button mat-icon-button aria-label="Profile menu button.">
+            <mat-icon>keyboard_arrow_down</mat-icon>
+        </button>
     </mat-toolbar>
 </header>
