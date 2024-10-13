@@ -1,4 +1,27 @@
-.example-spacer {
-    flex: 1 1 auto;
+.app-header {
+
+  img {
+    transform: scale(0.8);
+    margin: 15px;
   }
-  
+
+  .mat-toolbar {
+    font-family: Poppins;
+    color: rgb(249, 249, 249);
+    background-color: rgb(7, 18, 38);
+    padding: 0 256px;
+  }
+
+  .spacer {
+      flex: 1 1 auto;
+  }
+
+  button {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  button:hover {
+    font-weight: bold;
+  }
+}
