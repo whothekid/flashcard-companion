@@ -1,0 +1,11 @@
+{
+  "name": "flashcard-companion",
+  "version": "1.0.0",
+  "description": "Flashcard studying track tool.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
